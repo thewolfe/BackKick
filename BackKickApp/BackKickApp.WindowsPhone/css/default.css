@@ -1,0 +1,71 @@
+﻿#mainlogo {
+    width: 100%;     
+}
+
+.stretch {
+    width:100%;
+}
+
+.redprice {
+    color: red;     
+}
+
+.smalltextbrand {
+    font-size:xx-small;    
+}
+
+.electronic_list {
+	position: relative;
+	clear: both;
+}
+
+.imagediv{
+	float: left;
+    width: 40%;
+}
+
+.mainfloatcontainer {
+	margin: 0 auto;
+}
+
+.textdiv {
+	position: absolute;
+	width: 40%;
+	left: 15%;
+	padding-top: 10px;
+}
+
+.ui-btn-active-brown {
+	color: #CD853F;
+}
+
+.ui-btn-inactive-brown {
+	color: black;
+}
+
+.floatleft {
+	float: left;
+}
+
+.menudiv {
+	width: 30%;
+}
+
+.marginleftdiv {
+	margin-left: 5%;
+}
+
+.hidden {
+        display: none;
+}
+.visible {
+        display: block;
+}
+
+li {
+	list-style-type: none;
+}
+
+.rowheight {
+	height: 50px;
+}

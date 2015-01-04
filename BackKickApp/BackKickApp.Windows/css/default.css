@@ -1,0 +1,29 @@
+﻿#mainlogo {
+    width: 100%;     
+}
+
+.stretch {
+    width:100%;
+}
+
+#redprice {
+    color: red;     
+}
+
+#smalltextbrand {
+    font-size:xx-small;    
+}
+
+.ui-btn-icon-right .ui-icon {
+	display: none;
+}
+
+.category {
+	background-image: none;
+	/*border-color: #2f3e46;*/
+	border-width:0;
+}
+
+.inactive-header {
+	
+}

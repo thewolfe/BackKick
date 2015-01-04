@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <!-- WinJS references -->
+    <!--<link href="/css/ui-themed.css" rel="stylesheet" />-->
+    <script src="//Microsoft.Phone.WinJS.2.1/js/base.js"></script>
+    <script src="//Microsoft.Phone.WinJS.2.1/js/ui.js"></script>
+
+    <script src="js/default.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+</head>
+
+<body>
+
+    <div data-role="page">
+
+        <div>
+            <div>
+                <div style="margin-top: 5%; font-size:x-large; margin-left: 4%;">Microsoft Xbox One</div>
+                <div style="padding-top: 0px; font-size:xx-small; color : red; margin-left: 4%;">Need 25 more customers to sell this product at $250</div>
+            </div>
+        </div><!-- /header -->
+        <div style="height: 20px;margin-top: 5%;">
+            <div id="oberviewbtn" class="ui-btn-active-brown floatleft menudiv marginleftdiv">Overview</div>
+            <div id="detailsbtn" class="floatleft menudiv">Details</div>
+            <div id="reviewbtn" class="floatleft menudiv">Reviews</div>
+
+        </div>
+        <div id="overview-container" class="visible">
+            <div style="position: absolute; left: 10px; right: 10px; border: 1px solid #abcdef; height: 140px; overflow-x: auto;">
+                <div style="height: 160px; width: 900px;">
+                    <div style="height: 120px; width: 120px; background-size: cover; margin: 8px 10px; background-image: url(images/image-xbox-small.png); float: left;"></div>
+                    <div style="height: 120px; width: 120px; background-size: cover; margin: 8px 10px; background-image: url(images/image-xbox-small.png); float: left;"></div>
+                    <div style="height: 120px; width: 120px; background-size: cover; margin: 8px 10px; background-image: url(images/image-xbox-small.png); float: left;"></div>
+                    <div style="height: 120px; width: 120px; background-size: cover; margin: 8px 10px; background-image: url(images/image-xbox-small.png); float: left;"></div>
+                    <div style="height: 120px; width: 120px; background-size: cover; margin: 8px 10px; background-image: url(images/image-xbox-small.png); float: left;"></div>
+                </div>
+            </div>
+            <div style="padding-top: 160px; margin-left: 5%; font-size:small;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div style="margin-top: 20%;">
+                <div style="height: 40px; width: 140px; background-image: url(images/btn-bg.png); float: left; color : white; margin-left: 5%; text-align: center; "> Buy Now</div>
+                <div style="height: 40px; width: 140px; background-image: url(images/btn-bg.png); float: left; color : white; margin-left: 5%; text-align: center; "><a href="video.html" style="color : white;text-decoration: none;">Product Tour</a></div>
+
+                <div style="height: 40px; width: 40px; background-image: url(http://s3-amazonaws-com.webces.datami.net/sdmsg/nonsponsored/msg.png); float: left; color : white; margin-left: 5%; text-align: center; "></div>
+
+            </div>
+        </div>
+
+        <div id="details-container" class="hidden">
+            Shipping: Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.
+            ASIN: B00NFXON1Q
+            Product Dimensions: 12.6 x 7 x 14.6 inches ; 10.8 pounds
+            Media: Video Game
+            Release Date: November 2, 2014
+        </div>
+
+        <div id="reviews-container" class="hidden">
+            692 of 720 people found the following review helpful
+            5.0 out of 5 stars Xbox One Bundle Comparison, November 3, 2014
+            By Vdub (Saratoga Springs, UT, USA) - See all my reviews
+            (TOP 500 REVIEWER)
+            This review is from: Xbox One Assassin's Creed Unity Bundle (Video Game)
+            There are now several Xbox One bundles to choose from over the holidays, and this Assassin's Creed bundle is one of the better options in my opinion. But just in case another one will be a better match for you, here is a comparison with holiday price drops:
+
+            Xbox One, no Kinect: $349
+            - Barebones, nothing extra, not a great deal, don't get this one.
+
+            Xbox One with Kinect: $449
+            - Same as above, but includes Kinect. No other bonuses, don't get this bundle.
+
+            Xbox One Assassin's Creed Bundle, no Kinect: $349
+            - This includes both Assassin's Creed black flag (digital version), which is playable immediately after download, and Assassin's Creed Unity, which you can pre-download, but it is not playable until release date, which is still 1-2 weeks away. As you can see, this is the same price as the barebones XBO, but includes 2 free games, making it a pretty sweet deal if you don't care about the Kinect.
+
+            Xbox One Assassin's Creed Bundle, with Kinect: $449
+            - Same as other AC bundle above, but also includes Kinect. It also includes a free Kinect game: Dance Central Spotlight. The Kinect sells separately alone for $149 MSRP, so this is an *extremely* good bundle. The standard MSRP prices would put this value at $399 console + $149 Kinect + $30 AC Black Flag + $60 AC Unity + $20 Dance Central Spotlight = about $650 total. Even if you believe the separate prices are kind of inflated, or they go down further over time, still a great deal.
+        </div>
+
+    </div><!-- /page -->
+    <script type="text/javascript">
+
+	//$(document).ready(function () {
+    //    document.addEventListener("deviceready", preEnableButtons, false);
+    //});
+
+    //function preEnableButtons() {
+    //    document.addEventListener("backbutton", enableButtons, false);
+    //}
+
+    //function enableButtons() {
+
+        var overviewDiv = document.getElementById('overview-container');
+        var detailsDiv = document.getElementById('details-container');
+        var reviewsDiv = document.getElementById('reviews-container');
+
+        var overviewBtn = document.getElementById('oberviewbtn');
+        var detailsBtn = document.getElementById('detailsbtn');
+        var reviewBtn = document.getElementById('reviewbtn');
+
+        overviewBtn.onclick = function () {
+            detailsDiv.setAttribute('class', 'hidden');
+            reviewsDiv.setAttribute('class', 'hidden');
+            overviewDiv.setAttribute('class', 'visible');
+            overviewBtn.setAttribute('class', 'ui-btn-active-brown floatleft menudiv marginleftdiv');
+            detailsBtn.setAttribute('class', 'ui-btn-inactive-brown floatleft menudiv');
+            reviewBtn.setAttribute('class', 'ui-btn-inactive-brown floatleft menudiv');
+        };
+
+        detailsBtn.onclick = function () {
+            detailsDiv.setAttribute('class', 'visible');
+            detailsBtn.setAttribute('class', 'ui-btn-active-brown floatleft menudiv');
+            overviewBtn.setAttribute('class', 'ui-btn-inactive-brown floatleft menudiv marginleftdiv');
+            reviewBtn.setAttribute('class', 'ui-btn-inactive-brown floatleft menudiv');
+            reviewsDiv.setAttribute('class', 'hidden');
+            overviewDiv.setAttribute('class', 'hidden');
+        };
+
+        reviewBtn.onclick = function () {
+            detailsDiv.setAttribute('class', 'hidden');
+            reviewsDiv.setAttribute('class', 'visible');
+            overviewDiv.setAttribute('class', 'hidden');
+            overviewBtn.setAttribute('class', 'ui-btn-inactive-brown floatleft menudiv marginleftdiv');
+            detailsBtn.setAttribute('class', 'ui-btn-inactive-brown floatleft menudiv');
+            reviewBtn.setAttribute('class', 'ui-btn-active-brown floatleft menudiv');
+        };
+    //};
+
+    </script>
+</body>
+</html>

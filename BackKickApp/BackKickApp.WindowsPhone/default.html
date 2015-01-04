@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BackKick</title>
+
+    <script src="js/jquery-1.5.2.min.js"></script>
+
+    <!-- WinJS references -->
+    <!--<link href="/css/ui-themed.css" rel="stylesheet" />-->
+    <script src="//Microsoft.Phone.WinJS.2.1/js/base.js"></script>
+    <script src="//Microsoft.Phone.WinJS.2.1/js/ui.js"></script>
+
+    <script src="js/default.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+</head>
+<body>
+
+    <div>
+
+        <div style="width: 100%;">
+            <div id="mainlogo">
+                <img style="width: 100%;" src="images/backick-logo-2.png">
+            </div>
+            <h1>Departments</h1>
+        </div><!-- /header -->
+
+        <div>
+
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="electronics.html">Electronics</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="homeandbath.html">Home and Bath</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="books.html">Books</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="movies.html">Movies</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="games.html">Games</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="cosmetics.html">Cosmetics</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="shoes.html">Shoes</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="jewelry.html">Jewelry</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="apparel.html">Apparel</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="grocery.html">Grocery</a></div>
+            <div class="rowheight"><a style="color : grey;text-decoration: none;font-size:large; " href="kids.html">Kids</a></div>
+
+        </div><!-- /content -->
+
+    </div><!-- /page -->
+
+    <script>
+        $(document).ready(function () {
+            document.addEventListener("deviceready", setOverrideBackbutton, false);
+        });
+
+        function setOverrideBackbutton() {
+            document.addEventListener("backbutton", backButtonTap, true);
+        }
+
+        /**
+         * Callback after a backbutton tap on windows platforms.
+         * Do nothing.
+         */
+        function backButtonTap() {
+            //Do not remove
+        }
+    </script>
+</body>
+</html>
