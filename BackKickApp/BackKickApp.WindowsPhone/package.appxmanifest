@@ -21,6 +21,9 @@
         </m3:DefaultTile>
         <m3:SplashScreen Image="images\SplashScreen.png" />
       </m3:VisualElements>
+      <ApplicationContentUriRules>
+        <Rule Match="https://techslides-com.webces.datami.net/demos/sample-videos/small.mp4" Type="include" />
+      </ApplicationContentUriRules>
     </Application>
   </Applications>
   <Capabilities>

@@ -68,6 +68,7 @@
     <Content Include="css\ui-themed.css" />
     <Content Include="css\ui-themed.theme-dark.css" />
     <Content Include="css\ui-themed.theme-light.css" />
+    <Content Include="video.html" />
     <Content Include="xboxone.html" />
   </ItemGroup>
   <ItemGroup>
