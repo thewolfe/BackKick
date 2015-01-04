@@ -22,7 +22,7 @@
         <m3:SplashScreen Image="images\SplashScreen.png" />
       </m3:VisualElements>
       <ApplicationContentUriRules>
-        <Rule Match="https://techslides-com.webces.datami.net/demos/sample-videos/small.mp4" Type="include" />
+        <Rule Match="https://ia700505-us-archive-org.webces.datami.net/3/items/Windows7WildlifeSampleVideo/Wildlife_512kb.mp4" Type="include" />
       </ApplicationContentUriRules>
     </Application>
   </Applications>
